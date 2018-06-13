@@ -1,0 +1,6 @@
+framework module AUKO_DrawView {
+  umbrella header "AUKO_DrawView-umbrella.h"
+
+  export *
+  module * { export * }
+}

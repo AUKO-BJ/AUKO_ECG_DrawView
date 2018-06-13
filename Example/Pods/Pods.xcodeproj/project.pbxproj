@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2242F8F2D85AFD465B748311AF91D24E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3DBAD9DAC1ECAB7F2A528DB290FA407A /* Pods-AUKO_DrawView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373ABAFDD0C6B2A8646D67EB2E88E60F /* Pods-AUKO_DrawView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B79C2E40CFDE99AD3164D455426477D /* Pods-AUKO_DrawView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E27821F535CB866A9B8589CE95AA7C /* Pods-AUKO_DrawView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE7881BD2B69A27DA08C2544D5063C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8BE50721669E2B16E96669CF82380580 /* Pods-AUKO_DrawView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6231E13D2487CA306E03ADC6F4848EA /* Pods-AUKO_DrawView_Tests-dummy.m */; };
+		BB7049723A8437D345EB3450AFA8A94D /* AUKO_DrawView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD13969C7E916C2DBE28CAFC3C4DF305 /* AUKO_DrawView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C492FF7F8ED06C1E05A537510DD62520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D89EF215EA4025872A972D3012D14F0C /* AUKO_DrawView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A85340E77FC831604AF5DA37A378AD /* AUKO_DrawView-dummy.m */; };
+		E4118A23CB17FF0906EC59294F3E027E /* Pods-AUKO_DrawView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C6EEDA9C1EBCD42BC9813669258A31 /* Pods-AUKO_DrawView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02547793A0340139CAFA0B5CFDC82207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8251AB53BECDE594BA31AC5078D04BE6;
+			remoteInfo = "Pods-AUKO_DrawView_Example";
+		};
+		D6A18AECC8FAF74818272A37FA1BF8D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CB611E5BF23091FA2BAE83AD51F549;
+			remoteInfo = AUKO_DrawView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02ED39BDFFDB8618889B648120BEDF7F /* AUKO_DrawView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AUKO_DrawView.modulemap; sourceTree = "<group>"; };
+		03F9621170BFF67931869D050188674F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05E09AFB1C049E33E1251AC586E2AA4C /* Pods-AUKO_DrawView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AUKO_DrawView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		35E786B0835E6A3EAEABA21C0FFFBCF1 /* Pods-AUKO_DrawView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AUKO_DrawView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		373ABAFDD0C6B2A8646D67EB2E88E60F /* Pods-AUKO_DrawView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AUKO_DrawView_Example-umbrella.h"; sourceTree = "<group>"; };
+		39C4B3E310E68B77CA4EF0D1F5065B78 /* Pods-AUKO_DrawView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AUKO_DrawView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F47E75886C16124637D21F06E28A237 /* AUKO_DrawView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AUKO_DrawView.podspec; sourceTree = "<group>"; };
+		4C354ED6EAF91AE7AE2A584CF363F04D /* Pods-AUKO_DrawView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AUKO_DrawView_Example.modulemap"; sourceTree = "<group>"; };
+		4D7512974657B350D84A9D9D652394A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68E7FA0720D1221700725E37 /* ECG_Draw_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ECG_Draw_SDK.framework; sourceTree = "<group>"; };
+		68E7FA0920D1221700725E37 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6BF4C4829113DB6D67CFC96B9C780D2A /* Pods_AUKO_DrawView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AUKO_DrawView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		738B723DD9B89674B589C918F64A4A62 /* AUKO_DrawView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AUKO_DrawView-prefix.pch"; sourceTree = "<group>"; };
+		806A813D3368D1FCA577BA1EA6862913 /* AUKO_DrawView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AUKO_DrawView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DC2615AFB7BF9727B574046071969B /* Pods-AUKO_DrawView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AUKO_DrawView_Tests-resources.sh"; sourceTree = "<group>"; };
+		84DDBC25282E97801B0808E532781F31 /* Pods_AUKO_DrawView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AUKO_DrawView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		876ED242898744018A3E975D6ED367C1 /* Pods-AUKO_DrawView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AUKO_DrawView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		87E27821F535CB866A9B8589CE95AA7C /* Pods-AUKO_DrawView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AUKO_DrawView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		89A85340E77FC831604AF5DA37A378AD /* AUKO_DrawView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AUKO_DrawView-dummy.m"; sourceTree = "<group>"; };
+		92ED1D137941861A54F777D027D11C32 /* Pods-AUKO_DrawView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AUKO_DrawView_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977773938598561FDF8B201D8EBE181D /* Pods-AUKO_DrawView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AUKO_DrawView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CA1C8B301B967ED731180137FEB4A26 /* Pods-AUKO_DrawView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AUKO_DrawView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A0AE1D8B9EFDA2CAAA1808B20FBD59EE /* Pods-AUKO_DrawView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AUKO_DrawView_Tests.modulemap"; sourceTree = "<group>"; };
+		A0C0C96787622105B6C2BF8163F8AAD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DA65442D6BCA74C1C0CB98F6276F76 /* AUKO_DrawView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AUKO_DrawView.xcconfig; sourceTree = "<group>"; };
+		AB0E6C5281CAE8C0619CF1D8265AE3AA /* Pods-AUKO_DrawView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AUKO_DrawView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD0F726611F6D2A19514C3A17F27120A /* Pods-AUKO_DrawView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AUKO_DrawView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCCA8BA5DA8FC84ACDEB217E609E04A2 /* Pods-AUKO_DrawView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AUKO_DrawView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D479ADDE2D1D9D9FED9D63F55E376CAA /* Pods-AUKO_DrawView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AUKO_DrawView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4C6EEDA9C1EBCD42BC9813669258A31 /* Pods-AUKO_DrawView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AUKO_DrawView_Example-dummy.m"; sourceTree = "<group>"; };
+		D79EE6BF3B251987D9B2F52A6A4D7A14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E49C10FB61632579E80529143641A0F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6231E13D2487CA306E03ADC6F4848EA /* Pods-AUKO_DrawView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AUKO_DrawView_Tests-dummy.m"; sourceTree = "<group>"; };
+		FD13969C7E916C2DBE28CAFC3C4DF305 /* AUKO_DrawView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AUKO_DrawView-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E17A0CEE0F52DAF0A79028D1E8EC25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE7881BD2B69A27DA08C2544D5063C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432CEEF746A03CC6F7F27F39CF9D690C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C492FF7F8ED06C1E05A537510DD62520 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BB3D8A1E240BB230FBA79226522CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2242F8F2D85AFD465B748311AF91D24E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088DB78B9492744DF45048C990210463 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02ED39BDFFDB8618889B648120BEDF7F /* AUKO_DrawView.modulemap */,
+				A0DA65442D6BCA74C1C0CB98F6276F76 /* AUKO_DrawView.xcconfig */,
+				89A85340E77FC831604AF5DA37A378AD /* AUKO_DrawView-dummy.m */,
+				738B723DD9B89674B589C918F64A4A62 /* AUKO_DrawView-prefix.pch */,
+				FD13969C7E916C2DBE28CAFC3C4DF305 /* AUKO_DrawView-umbrella.h */,
+				4D7512974657B350D84A9D9D652394A5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AUKO_DrawView";
+			sourceTree = "<group>";
+		};
+		41C1126752598C5F0569D91F0F3ACC82 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3F47E75886C16124637D21F06E28A237 /* AUKO_DrawView.podspec */,
+				03F9621170BFF67931869D050188674F /* LICENSE */,
+				D79EE6BF3B251987D9B2F52A6A4D7A14 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		433DB1BAB1477244CD99996D91EC814B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806A813D3368D1FCA577BA1EA6862913 /* AUKO_DrawView.framework */,
+				84DDBC25282E97801B0808E532781F31 /* Pods_AUKO_DrawView_Example.framework */,
+				6BF4C4829113DB6D67CFC96B9C780D2A /* Pods_AUKO_DrawView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5995CB3C44C237FFC68FD260B505B97A /* Pods-AUKO_DrawView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A0C0C96787622105B6C2BF8163F8AAD4 /* Info.plist */,
+				4C354ED6EAF91AE7AE2A584CF363F04D /* Pods-AUKO_DrawView_Example.modulemap */,
+				D479ADDE2D1D9D9FED9D63F55E376CAA /* Pods-AUKO_DrawView_Example-acknowledgements.markdown */,
+				977773938598561FDF8B201D8EBE181D /* Pods-AUKO_DrawView_Example-acknowledgements.plist */,
+				D4C6EEDA9C1EBCD42BC9813669258A31 /* Pods-AUKO_DrawView_Example-dummy.m */,
+				CCCA8BA5DA8FC84ACDEB217E609E04A2 /* Pods-AUKO_DrawView_Example-frameworks.sh */,
+				92ED1D137941861A54F777D027D11C32 /* Pods-AUKO_DrawView_Example-resources.sh */,
+				373ABAFDD0C6B2A8646D67EB2E88E60F /* Pods-AUKO_DrawView_Example-umbrella.h */,
+				876ED242898744018A3E975D6ED367C1 /* Pods-AUKO_DrawView_Example.debug.xcconfig */,
+				05E09AFB1C049E33E1251AC586E2AA4C /* Pods-AUKO_DrawView_Example.release.xcconfig */,
+			);
+			name = "Pods-AUKO_DrawView_Example";
+			path = "Target Support Files/Pods-AUKO_DrawView_Example";
+			sourceTree = "<group>";
+		};
+		68E7FA0620D1221700725E37 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				68E7FA0720D1221700725E37 /* ECG_Draw_SDK.framework */,
+			);
+			name = Framework;
+			path = AUKO_DrawView/Framework;
+			sourceTree = "<group>";
+		};
+		68E7FA0820D1221700725E37 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68E7FA0920D1221700725E37 /* .gitkeep */,
+			);
+			name = Classes;
+			path = AUKO_DrawView/Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9026D0B4A3721CDD579329EEAFD89236 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433DB1BAB1477244CD99996D91EC814B /* Products */,
+				E6F156E7483FD627B2E098F51A2E8833 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		890F51A1BC64B9A987DB3A6A1566423B /* Pods-AUKO_DrawView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E49C10FB61632579E80529143641A0F8 /* Info.plist */,
+				A0AE1D8B9EFDA2CAAA1808B20FBD59EE /* Pods-AUKO_DrawView_Tests.modulemap */,
+				39C4B3E310E68B77CA4EF0D1F5065B78 /* Pods-AUKO_DrawView_Tests-acknowledgements.markdown */,
+				AB0E6C5281CAE8C0619CF1D8265AE3AA /* Pods-AUKO_DrawView_Tests-acknowledgements.plist */,
+				E6231E13D2487CA306E03ADC6F4848EA /* Pods-AUKO_DrawView_Tests-dummy.m */,
+				9CA1C8B301B967ED731180137FEB4A26 /* Pods-AUKO_DrawView_Tests-frameworks.sh */,
+				82DC2615AFB7BF9727B574046071969B /* Pods-AUKO_DrawView_Tests-resources.sh */,
+				87E27821F535CB866A9B8589CE95AA7C /* Pods-AUKO_DrawView_Tests-umbrella.h */,
+				AD0F726611F6D2A19514C3A17F27120A /* Pods-AUKO_DrawView_Tests.debug.xcconfig */,
+				35E786B0835E6A3EAEABA21C0FFFBCF1 /* Pods-AUKO_DrawView_Tests.release.xcconfig */,
+			);
+			name = "Pods-AUKO_DrawView_Tests";
+			path = "Target Support Files/Pods-AUKO_DrawView_Tests";
+			sourceTree = "<group>";
+		};
+		9026D0B4A3721CDD579329EEAFD89236 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F196D3D5B00F168FC6ED8B0055E61DF9 /* AUKO_DrawView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6F156E7483FD627B2E098F51A2E8833 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5995CB3C44C237FFC68FD260B505B97A /* Pods-AUKO_DrawView_Example */,
+				890F51A1BC64B9A987DB3A6A1566423B /* Pods-AUKO_DrawView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F196D3D5B00F168FC6ED8B0055E61DF9 /* AUKO_DrawView */ = {
+			isa = PBXGroup;
+			children = (
+				68E7FA0820D1221700725E37 /* Classes */,
+				68E7FA0620D1221700725E37 /* Framework */,
+				41C1126752598C5F0569D91F0F3ACC82 /* Pod */,
+				088DB78B9492744DF45048C990210463 /* Support Files */,
+			);
+			name = AUKO_DrawView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E8C9B63A2B387AB30FEF6E54E9EE925 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7049723A8437D345EB3450AFA8A94D /* AUKO_DrawView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F61124649BE63031F577B58E346492 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B79C2E40CFDE99AD3164D455426477D /* Pods-AUKO_DrawView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5910970B6777A277AB999020C1650217 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBAD9DAC1ECAB7F2A528DB290FA407A /* Pods-AUKO_DrawView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10CB611E5BF23091FA2BAE83AD51F549 /* AUKO_DrawView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5921B9B59B721BB05CD6B1849EE5ABE4 /* Build configuration list for PBXNativeTarget "AUKO_DrawView" */;
+			buildPhases = (
+				959AA52E770A7E3E9BF901E1E3EC1C09 /* Sources */,
+				432CEEF746A03CC6F7F27F39CF9D690C /* Frameworks */,
+				3E8C9B63A2B387AB30FEF6E54E9EE925 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUKO_DrawView;
+			productName = AUKO_DrawView;
+			productReference = 806A813D3368D1FCA577BA1EA6862913 /* AUKO_DrawView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50824862AC271669523DF0A7EFDF8EDD /* Pods-AUKO_DrawView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F59F4C28AAF2657362A16DCB791999 /* Build configuration list for PBXNativeTarget "Pods-AUKO_DrawView_Tests" */;
+			buildPhases = (
+				56A9E68EFF0D4EA62DF5784E1E081206 /* Sources */,
+				0E17A0CEE0F52DAF0A79028D1E8EC25C /* Frameworks */,
+				42F61124649BE63031F577B58E346492 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7176FB9780E899A44E17EF55AC88271 /* PBXTargetDependency */,
+			);
+			name = "Pods-AUKO_DrawView_Tests";
+			productName = "Pods-AUKO_DrawView_Tests";
+			productReference = 6BF4C4829113DB6D67CFC96B9C780D2A /* Pods_AUKO_DrawView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8251AB53BECDE594BA31AC5078D04BE6 /* Pods-AUKO_DrawView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD58BF7775E773D14290D73468B6A8B4 /* Build configuration list for PBXNativeTarget "Pods-AUKO_DrawView_Example" */;
+			buildPhases = (
+				D1AC06721321D35BC1E9D9F281F165EE /* Sources */,
+				D8BB3D8A1E240BB230FBA79226522CDA /* Frameworks */,
+				5910970B6777A277AB999020C1650217 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E471B6828F3B29151422580180DC7FA0 /* PBXTargetDependency */,
+			);
+			name = "Pods-AUKO_DrawView_Example";
+			productName = "Pods-AUKO_DrawView_Example";
+			productReference = 84DDBC25282E97801B0808E532781F31 /* Pods_AUKO_DrawView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 433DB1BAB1477244CD99996D91EC814B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10CB611E5BF23091FA2BAE83AD51F549 /* AUKO_DrawView */,
+				8251AB53BECDE594BA31AC5078D04BE6 /* Pods-AUKO_DrawView_Example */,
+				50824862AC271669523DF0A7EFDF8EDD /* Pods-AUKO_DrawView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56A9E68EFF0D4EA62DF5784E1E081206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE50721669E2B16E96669CF82380580 /* Pods-AUKO_DrawView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959AA52E770A7E3E9BF901E1E3EC1C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89EF215EA4025872A972D3012D14F0C /* AUKO_DrawView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AC06721321D35BC1E9D9F281F165EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4118A23CB17FF0906EC59294F3E027E /* Pods-AUKO_DrawView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E471B6828F3B29151422580180DC7FA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AUKO_DrawView;
+			target = 10CB611E5BF23091FA2BAE83AD51F549 /* AUKO_DrawView */;
+			targetProxy = D6A18AECC8FAF74818272A37FA1BF8D2 /* PBXContainerItemProxy */;
+		};
+		F7176FB9780E899A44E17EF55AC88271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AUKO_DrawView_Example";
+			target = 8251AB53BECDE594BA31AC5078D04BE6 /* Pods-AUKO_DrawView_Example */;
+			targetProxy = 02547793A0340139CAFA0B5CFDC82207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23E2E4B1820E84F12D616EA6B9AFEAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0DA65442D6BCA74C1C0CB98F6276F76 /* AUKO_DrawView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AUKO_DrawView/AUKO_DrawView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AUKO_DrawView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AUKO_DrawView/AUKO_DrawView.modulemap";
+				PRODUCT_MODULE_NAME = AUKO_DrawView;
+				PRODUCT_NAME = AUKO_DrawView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E2584F72FC6AF338D724F7F749E018A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E09AFB1C049E33E1251AC586E2AA4C /* Pods-AUKO_DrawView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AUKO_DrawView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AUKO_DrawView_Example/Pods-AUKO_DrawView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ABBF62CFCD24470B1B74F19590F6423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0F726611F6D2A19514C3A17F27120A /* Pods-AUKO_DrawView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AUKO_DrawView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AUKO_DrawView_Tests/Pods-AUKO_DrawView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		953873156CCF1644ED2983A264F368A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0DA65442D6BCA74C1C0CB98F6276F76 /* AUKO_DrawView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AUKO_DrawView/AUKO_DrawView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AUKO_DrawView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AUKO_DrawView/AUKO_DrawView.modulemap";
+				PRODUCT_MODULE_NAME = AUKO_DrawView;
+				PRODUCT_NAME = AUKO_DrawView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A342EEBEEDDE747649DAEA804DE24D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E786B0835E6A3EAEABA21C0FFFBCF1 /* Pods-AUKO_DrawView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AUKO_DrawView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AUKO_DrawView_Tests/Pods-AUKO_DrawView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C468AB196E3EAE8C2B0E99670591253A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876ED242898744018A3E975D6ED367C1 /* Pods-AUKO_DrawView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AUKO_DrawView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AUKO_DrawView_Example/Pods-AUKO_DrawView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5921B9B59B721BB05CD6B1849EE5ABE4 /* Build configuration list for PBXNativeTarget "AUKO_DrawView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E2E4B1820E84F12D616EA6B9AFEAA3 /* Debug */,
+				953873156CCF1644ED2983A264F368A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F59F4C28AAF2657362A16DCB791999 /* Build configuration list for PBXNativeTarget "Pods-AUKO_DrawView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABBF62CFCD24470B1B74F19590F6423 /* Debug */,
+				A342EEBEEDDE747649DAEA804DE24D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD58BF7775E773D14290D73468B6A8B4 /* Build configuration list for PBXNativeTarget "Pods-AUKO_DrawView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C468AB196E3EAE8C2B0E99670591253A /* Debug */,
+				2E2584F72FC6AF338D724F7F749E018A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

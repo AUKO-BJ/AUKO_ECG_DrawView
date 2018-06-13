@@ -1,0 +1,16 @@
+PODS:
+  - AUKO_DrawView (0.1.0)
+
+DEPENDENCIES:
+  - AUKO_DrawView (from `../`)
+
+EXTERNAL SOURCES:
+  AUKO_DrawView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AUKO_DrawView: c6b24c82229b599432621073685e1a5007ee5eca
+
+PODFILE CHECKSUM: bb03e7cb2736059656e8da8a28d7e4a9d56c0a75
+
+COCOAPODS: 1.5.3
