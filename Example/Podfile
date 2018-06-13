@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AUKO_DrawView_Example' do
+  pod 'AUKO_DrawView', :path => '../'
+
+  target 'AUKO_DrawView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
