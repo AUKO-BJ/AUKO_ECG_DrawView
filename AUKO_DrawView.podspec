@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
   绘制心电图
                        DESC
 
-  s.homepage         = 'https://github.com/AUKO-BJ/AUKO_DrawView'
+  s.homepage         = 'https://github.com/AUKO-BJ/AUKO_ECG_DrawView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ShenYj' => 'shen-yanjie@seagbri.com' }
-  s.source           = { :git => 'https://github.com/AUKO-BJ/AUKO_DrawView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AUKO-BJ/AUKO_ECG_DrawView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   # s.source_files = 'AUKO_DrawView/Classes/**/*'
-  s.vendor_frameworks = 'AUKO_DrawView/Framework/ECG_Draw_SDK.framework'
+  s.vendored_frameworks = 'AUKO_DrawView/Framework/ECG_Draw_SDK.framework'
   # s.resource_bundles = {
   #   'AUKO_DrawView' => ['AUKO_DrawView/Assets/*.png']
   # }
